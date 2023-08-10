@@ -1,6 +1,6 @@
 #!/bin/bash
 
-placeholders_input="ID,Names,Ports,Status,State,Image"
+placeholders_input="ID,Names,State,Image,Ports"
 IFS=',' read -r -a placeholders_array <<<"${placeholders_input}"
 
 placeholders_format=$(printf ";{{.%s}}" "${placeholders_array[@]}")
