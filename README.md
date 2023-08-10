@@ -25,12 +25,12 @@ You can freely modify dps.sh script by your needs.
 
 ### You and other local users
 ```shell
-sudo wget -O /usr/local/bin/dps https://raw.githubusercontent.com/jadrovski/narrow-docker-ps/main/dps.sh
+sudo wget -O /usr/local/bin/dps https://raw.githubusercontent.com/Stelzi79/narrow-docker-ps/main/dps.sh
 sudo chmod +x /usr/local/bin/dps
 ```
 
 ### Only you
 ```shell
-wget -O ~/.local/bin/dps https://raw.githubusercontent.com/jadrovski/narrow-docker-ps/main/dps.sh
+wget -O ~/.local/bin/dps https://raw.githubusercontent.com/Stelzi79/narrow-docker-ps/main/dps.sh
 chmod +x ~/.local/bin/dps
 ```
