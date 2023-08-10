@@ -45,7 +45,7 @@ for ((i = 1; i < ${#docker_ps_output[@]}; i++)); do
     out_array+=("$before$(echo $port)$after")
   done
 
-  out_array+=(";")
+  # out_array+=(";") # adds an extra NewLine on the end of the Ports column
 done
 
 # we need to add `-n` argument to `column` (only for BSD version of program) to format columns well
